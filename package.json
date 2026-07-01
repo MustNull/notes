@@ -10,6 +10,12 @@
   "author": "MustNull",
   "license": "MIT",
   "packageManager": "pnpm@11.9.0",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "esbuild"
+    ]
+  },
   "type": "module",
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.30",
