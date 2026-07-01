@@ -18,7 +18,7 @@ export default hopeTheme({
 
   logo: "/logo.svg",
 
-  repo: "MustNull/myblog",
+  repo: "MustNull/notes",
 
   docsDir: "src",
 
