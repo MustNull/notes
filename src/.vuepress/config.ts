@@ -10,4 +10,13 @@ export default defineUserConfig({
 
   theme,
   bundler: viteBundler(),
+
+  head: [
+    [
+      "script",
+      {
+        src: "https://fastly.jsdelivr.net/npm/live2d-widgets@1.0.0/dist/autoload.js",
+      },
+    ],
+  ],
 });
